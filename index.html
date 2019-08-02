@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Street Fighter RPG with jQuery</title>
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Game Logic -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="section-title">Street Fighter Role Playing Game</div>
+        <div id="main-game-section">
+            <div class="row">
+                <div id="characters-section">
+                    <div class="section-second-title">Select Your Character</div>
+                </div>
+            </div>
+            <!-- Our Selected Character -->
+            <div id="selected-character-section">
+                <div class="section-second-title">Your Character</div>
+                <div id="selected-character"></div>
+            </div>
+
+            <!-- Enemies Avaliable -->
+            <div id="avaliable-to-attack-section">
+                <div class="section-second-title">Enemies Available to Attack</div>
+            </div>
+
+            <div class="section-second-title">Fight Section</div>
+            <div id="fight-section">
+                <button id="attack-button">Attack</button>
+            </div>
+
+            <div id="action">
+                <div class="character-section">
+                    <div class="section-second-title">Defender</div>
+                    <!-- Defender -->
+                    <div id="defender"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Game Messages -->
+    <div class="message-area">
+        <p>Game Stats</p>
+    </div>
+    <div id="game-message">
+    </div>
+</body>
+
+</html>
